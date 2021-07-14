@@ -156,11 +156,10 @@ main{
         flex-direction: column;
         /* text-align: center; */
     }
-    .extra-area{
+    .extra-area, .video-area{
         padding: 10px 10%;
         flex-direction: column;
         justify-content: center;
-        background-color: whitesmoke;
         /* padding: 80px 180px; */
     }
 }
