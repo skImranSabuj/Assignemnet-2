@@ -24,7 +24,7 @@ body{
 }
 .button{
     background: #E02C6D;
-    padding: 10px 24px;
+    padding: 10px 30px;
     color: #ffffff;
     border: 0;
 }
@@ -94,7 +94,23 @@ main{
     width: 567px;
     height: 428px;
 }
-
+/* Bonus Videoo Section  */
+.bonus{
+    text-align: center;
+    background-color: whitesmoke;
+}
+.bonus h2{
+    margin-top: 0;
+}
+.video-area{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px 140px 86px;
+}
+.video{
+    border: 3px solid black;
+    padding: 5px
+}
 /* Footer design  */
 .footer-area{
     display: flex;
