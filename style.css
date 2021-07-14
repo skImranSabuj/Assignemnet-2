@@ -5,6 +5,7 @@
 body{
     font-family: 'Poppins', sans-serif;
     margin: 0;
+    background-color: whitesmoke;
 }
 
 
@@ -44,7 +45,7 @@ main{
     background-color: whitesmoke;
 }
 .players{
-    padding: 70px 180px;
+    padding: 70px 0px;
     /* text-align: center; */
     display: grid;
     grid-template-columns: repeat(3, 330px);
@@ -126,4 +127,51 @@ main{
 .icons img{
     width: 18px;
     height: 18px;
+}
+
+/* Media Query  */
+
+@media only screen and (max-width: 688px) {
+    .header-area{
+        padding: 10px 5px;
+        flex-direction: column;
+        text-align: center;
+    
+    }
+    .title-tag{
+        font-size: 36px;
+    }
+    .image-area img{
+        Width: 330px;
+        Height: 250px;
+        margin-top: 50px;
+    }
+    .players{
+        grid-template-columns: repeat(1, 1fr);
+        justify-content: center;
+        padding: 10px 5px;
+        flex-direction: column;
+        /* text-align: center; */
+    }
+}
+@media only screen and (min-width: 688px) and (max-width: 992px) {
+    .header-area{
+        padding: 20px 10%;
+        flex-direction: column;
+        align-items: center;
+        flex-wrap: wrap;
+    
+    }
+    .title-tag{
+        font-size: 36px;
+    }
+    .image-area img{
+        Width: 330px;
+        Height: 250px;
+        margin-top: 50px;
+    }
+    .players{
+        grid-template-columns: repeat(2, 1fr);
+        text-align: center;
+    }
 }
