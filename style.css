@@ -132,6 +132,9 @@ main{
 /* Media Query  */
 
 @media only screen and (max-width: 688px) {
+    body{
+        width: 100%;
+    }
     .header-area{
         padding: 10px 5px;
         flex-direction: column;
@@ -149,12 +152,23 @@ main{
     .players{
         grid-template-columns: repeat(1, 1fr);
         justify-content: center;
-        padding: 10px 5px;
+        padding: 10px 10%;
         flex-direction: column;
         /* text-align: center; */
     }
+    .extra-area{
+        padding: 10px 10%;
+        flex-direction: column;
+        justify-content: center;
+        background-color: whitesmoke;
+        /* padding: 80px 180px; */
+    }
 }
+/* Tab or medium devices  */
 @media only screen and (min-width: 688px) and (max-width: 992px) {
+    body{
+        width: 100%;
+    }
     .header-area{
         padding: 20px 10%;
         flex-direction: column;
